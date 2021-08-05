@@ -1,0 +1,4 @@
+"ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE{{.Image}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"
+
+# Example
+# docker ps --format="ID\t{{.ID}}\nNAME\t{{.Names}}\nIMAGE{{.Image}}\nPORTS\t{{.Ports}}\nCOMMAND\t{{.Command}}\nCREATED\t{{.CreatedAt}}\nSTATUS\t{{.Status}}\n"
